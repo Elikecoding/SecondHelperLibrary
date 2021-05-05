@@ -13,7 +13,7 @@ namespace SecondHelperLibrary.LogicClasses
         private readonly List<mS> myList = new List<mS>();
 
         //Count the number of objects
-        public int Count => myList.Count();
+        public int Count => myList.Count;
 
         //Add objects
         public void Push(mS obj)
